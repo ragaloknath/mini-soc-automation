@@ -1,0 +1,30 @@
+[
+    {
+        "ip": "2001:4860:4860::8888",
+        "risk_score": 0,
+        "verdict": "Low",
+        "abuse_score": 0,
+        "vt_malicious": 0
+    },
+    {
+        "ip": "14.161.47.252",
+        "risk_score": 0,
+        "verdict": "Low",
+        "abuse_score": 0,
+        "vt_malicious": 0
+    },
+    {
+        "ip": "118.25.6.39",
+        "risk_score": 1,
+        "verdict": "Low",
+        "abuse_score": 7,
+        "vt_malicious": 0
+    },
+    {
+        "ip": "8.8.4.4",
+        "risk_score": 0,
+        "verdict": "Low",
+        "abuse_score": 0,
+        "vt_malicious": 0
+    }
+]
