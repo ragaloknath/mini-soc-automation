@@ -1,2 +1,0 @@
-For running virtual ENV in VsCode : .\venv\Scripts\activate
-PowerShell : streamlit run dashboard.py
