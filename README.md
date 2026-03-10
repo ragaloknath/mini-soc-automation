@@ -22,8 +22,9 @@ dashboard.py – Displays investigation results
 
 Install dependencies:
 
-```bash
 pip install -r requirements.txt
+
+
 
 ## Sample Output
 
