@@ -1,1 +1,26 @@
 # Mini SOC Automation
+Mini SOC Automation is a Python-based cybersecurity tool that analyzes log files, extracts suspicious IP addresses, checks their reputation using threat intelligence APIs, and generates investigation reports.
+
+## Features
+
+- Parses security log files
+- Extracts IP addresses from logs
+- Checks IP reputation using VirusTotal and AbuseIPDB
+- Assigns risk scores to suspicious IPs
+- Generates structured investigation reports
+
+## Project Structure
+
+main.py – Entry point of the tool  
+log_parser.py – Extracts indicators from logs  
+reputation_checker.py – Queries threat intelligence APIs  
+scoring_engine.py – Assigns risk scores  
+report_generator.py – Generates investigation reports  
+dashboard.py – Displays investigation results  
+
+## Requirements
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
