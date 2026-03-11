@@ -26,12 +26,12 @@ def calculate_risk(abuse_data: Dict[str, Any], vt_data: Dict[str, Any]) -> Dict[
     hit_vt = False
     
     # Rule 1
-    if abuse_score > 75:
+    if abuse_score > 50:
         score += 50
         hit_abuse = True
         
     # Rule 2
-    if vt_malicious > 5:
+    if vt_malicious > 1:
         score += 40
         hit_vt = True
         

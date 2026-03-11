@@ -11,6 +11,7 @@ from config import (
 from logger import get_logger
 
 logger = get_logger(__name__)
+print("AbuseIPDB Key:", ABUSEIPDB_API_KEY)
 
 class ReputationChecker:
     """Handles API queries to Threat Intelligence providers."""
@@ -47,6 +48,7 @@ class ReputationChecker:
             )
             response.raise_for_status()
             data = response.json()
+            print("AbuseIPDB RAW:", data)
             return {"score": data['data'].get('abuseConfidenceScore', 0)}
         except Exception as e:
             logger.error(f"AbuseIPDB error for IP {ip}: {str(e)}")
