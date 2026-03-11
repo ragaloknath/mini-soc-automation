@@ -1,2 +1,7 @@
+streamlit
+pandas
 requests==2.31.0
 python-dotenv==1.0.1
+langchain
+langchain-google-genai
+google-generativeai
